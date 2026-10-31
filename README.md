@@ -3,7 +3,9 @@
 **Opinión legal de contratos de crédito con la ley consultada en tiempo real.**
 Proyecto de clase para el Hackatón Lawgic · 31 de octubre de 2026 · Álvaro Enríquez.
 
-> 🖥️ **Pruébalo como app**: `streamlit run app.py` (ver [Cómo correrlo](#cómo-correrlo)).
+> 🌐 **Demo en línea para la revisión (31 de octubre de 2026)**: https://baseline-correspondence-llc-standard.trycloudflare.com
+> Es un túnel temporal a la app corriendo en la máquina del autor; funciona mientras la demo esté encendida. Sin instalar nada: elige *Contrato de ejemplo* y pulsa *Revisar contrato*.
+> 🖥️ **Pruébalo como app en tu máquina**: `streamlit run app.py` (ver [Cómo correrlo](#cómo-correrlo)).
 > 🎬 Video explicativo (menos de 2 minutos): [`video/lawgic-revisor.mp4`](video/lawgic-revisor.mp4)
 > 📄 Ejemplo real de salida: [`salida/contrato_quirografario_sintetico/opinion.md`](salida/contrato_quirografario_sintetico/opinion.md) y su bitácora [`fuentes.json`](salida/contrato_quirografario_sintetico/fuentes.json)
 
