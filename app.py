@@ -14,6 +14,22 @@ RAIZ = Path(__file__).resolve().parent
 EJEMPLO = RAIZ / "ejemplos" / "contrato_quirografario_sintetico.md"
 
 st.set_page_config(page_title="Lawgic Revisor", page_icon="⚖️", layout="wide")
+
+PRESENTACION = RAIZ / "video" / "presentacion.mp4"
+
+
+@st.dialog("Presentación del proyecto", width="large")
+def _presentacion():
+    st.video(str(PRESENTACION), autoplay=True)
+    st.caption("Álvaro Enríquez explica en dos minutos qué es Lawgic Revisor y cómo probarlo. Cierra esta ventana para usar la app.")
+    if st.button("Ir a la app", type="primary", use_container_width=True):
+        st.rerun()
+
+
+if PRESENTACION.exists() and not st.session_state.get("presentacion_vista"):
+    st.session_state["presentacion_vista"] = True
+    _presentacion()
+
 st.title("⚖️ Lawgic Revisor")
 st.caption("Opinión legal de contratos de crédito con la ley oficial consultada en tiempo real · Hackatón Lawgic · prototipo académico, no sustituye a un abogado.")
 
@@ -31,6 +47,8 @@ with st.sidebar:
             st.markdown(EJEMPLO.read_text(encoding="utf-8"))
     modelo = st.text_input("Modelo", MODELO_POR_DEFECTO)
     revisar_btn = st.button("Revisar contrato", type="primary", use_container_width=True)
+    if PRESENTACION.exists() and st.button("▶ Ver la presentación", use_container_width=True):
+        _presentacion()
     st.markdown("---")
     st.markdown("**Cómo funciona**\n\n1. Lee el contrato.\n2. Descarga en ese instante el PDF oficial de cada ley (Diputados) y lee el artículo.\n3. Emite la opinión con artículo, última reforma y URL.\n4. Registra cada consulta con hora exacta.")
 

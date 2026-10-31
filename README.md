@@ -4,7 +4,7 @@
 Proyecto de clase para el Hackatón Lawgic · 31 de octubre de 2026 · Álvaro Enríquez.
 
 > 🌐 **Demo en línea para la revisión (31 de octubre de 2026)**: https://baseline-correspondence-llc-standard.trycloudflare.com
-> Es un túnel temporal a la app corriendo en la máquina del autor; funciona mientras la demo esté encendida. Sin instalar nada: elige *Contrato de ejemplo* y pulsa *Revisar contrato*.
+> Es un túnel temporal a la app corriendo en la máquina del autor; funciona mientras la demo esté encendida. Al abrirla aparece una presentación en video de dos minutos (avatar de Álvaro Enríquez generado con HeyGen); ciérrala, elige *Contrato de ejemplo* y pulsa *Revisar contrato*. Sin instalar nada.
 > 🖥️ **Pruébalo como app en tu máquina**: `streamlit run app.py` (ver [Cómo correrlo](#cómo-correrlo)).
 > 🎬 Video explicativo (menos de 2 minutos): [`video/lawgic-revisor.mp4`](video/lawgic-revisor.mp4)
 > 📄 Ejemplo real de salida: [`salida/contrato_quirografario_sintetico/opinion.md`](salida/contrato_quirografario_sintetico/opinion.md) y su bitácora [`fuentes.json`](salida/contrato_quirografario_sintetico/fuentes.json)
@@ -96,7 +96,7 @@ lawgic_revisor/
   cli.py         interfaz de línea de comandos
 ejemplos/        contrato sintético de prueba
 salida/          resultados reales de la demo
-video/           video explicativo, guion y script que lo genera
+video/           video explicativo (lawgic-revisor.mp4), presentación con avatar (presentacion.mp4), guiones y scripts que los generan
 docs/            diseño del proyecto
 ```
 
