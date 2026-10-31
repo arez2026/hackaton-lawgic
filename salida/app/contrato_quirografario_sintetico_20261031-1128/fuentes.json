@@ -1,0 +1,197 @@
+{
+  "archivo": "contrato_quirografario_sintetico.md",
+  "modelo": "claude-opus-5-5",
+  "inicio": "2026-10-31T11:28:29-06:00",
+  "fin": "2026-10-31T11:30:26-06:00",
+  "duracion_s": 117.1,
+  "turnos": 15,
+  "costo_usd": 0.6807449,
+  "total_consultas": 13,
+  "consultas": [
+    {
+      "orden": 1,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:28:39-06:00",
+      "consulta": "LGOAAC art. 87-J (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_01SuviRAQbm4AtAacZpSLcyp",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGOAAC.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley General de Organizaciones y Actividades Auxiliares del Crédito (LGOAAC) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGOAAC.pdf Descargado: 2026-10-31T11:28:39-06:00 (hora de Ciudad de México) · 148 páginas · SHA-256 54747e6ec9832743… Última reforma publicada en el DOF: 14-11-2025  Artículo 87-J.- En los contratos de arrendamiento financiero, factoraje financiero y crédito, así como  en las demás actividades que la ley expresamente les faculte, que celebren las sociedades f inancieras de  objeto múltiple, éstas deberán señalar expresamente que, para su constitución y o",
+      "error": false
+    },
+    {
+      "orden": 2,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:28:42-06:00",
+      "consulta": "LTOSF art. 11 (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_01CriUzbibMv4s1kdDTDuZ4b",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LTOSF.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley para la Transparencia y Ordenamiento de los Servicios Financieros (LTOSF) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LTOSF.pdf Descargado: 2026-10-31T11:28:42-06:00 (hora de Ciudad de México) · 48 páginas · SHA-256 bf9e443e89a5c0ba… Última reforma publicada en el DOF: 14-11-2025  Artículo 11. Los Contratos de Adhesión que utilicen las Entidad es Financieras para documentar  operaciones masivas deberán cumplir con los requisitos que mediante disposiciones de carácter general  establezca la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Fin",
+      "error": false
+    },
+    {
+      "orden": 3,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:28:42-06:00",
+      "consulta": "LPDUSF art. 56 Bis (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_01NjDTPZ1YLK7gbtpYRMUWnX",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LPDUSF.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley de Protección y Defensa al Usuario de Servicios Financieros (LPDUSF) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LPDUSF.pdf Descargado: 2026-10-31T11:28:44-06:00 (hora de Ciudad de México) · 60 páginas · SHA-256 cd194c7967f5d32d… Última reforma publicada en el DOF: 14-11-2025  Artículo 56 Bis. - Los contratos de adhesión que utilicen las Instituciones Financieras para la  celebración de operaciones con Usuarios, en adición a los requisitos a los que están sujetos conforme a  ésta y, en su caso, otras leyes, no deberán contener cláusulas abusivas.    La Comisión Na cio",
+      "error": false
+    },
+    {
+      "orden": 4,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:28:42-06:00",
+      "consulta": "LGTOC art. 15 (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_01S8bBNccVc6dEcLTMu8dG2V",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGTOC.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley General de Títulos y Operaciones de Crédito (LGTOC) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGTOC.pdf Descargado: 2026-10-31T11:28:45-06:00 (hora de Ciudad de México) · 118 páginas · SHA-256 cf8a5d05500ddbe2… Última reforma publicada en el DOF: 26-03-2024  Artículo 15.- Las menciones y requisitos que el título de crédito o el acto en él consignado necesitan  para su eficacia, po drán ser satisfechos por quien en su oportunidad debió llenarlos, hasta antes de la  presentación del título para su aceptación o para su pago.",
+      "error": false
+    },
+    {
+      "orden": 5,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:28:42-06:00",
+      "consulta": "LRSIC art. 28 (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_01AFaLVxmsjZZgqaaqXpYLQw",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRSIC.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley para Regular las Sociedades de Información Crediticia (LRSIC) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LRSIC.pdf Descargado: 2026-10-31T11:28:48-06:00 (hora de Ciudad de México) · 51 páginas · SHA-256 25be325eba880415… Última reforma publicada en el DOF: 24-01-2024  Artículo 28.- Las Sociedades solo podrán proporcionar información a un Usuario, cua ndo este cuente  con la autorización expresa del Cliente, mediante su firma, en donde conste de manera fehaciente que  tiene pleno conocimiento de la naturaleza y alcance de la información que la Sociedad proporcionará a",
+      "error": false
+    },
+    {
+      "orden": 6,
+      "herramienta": "WebSearch",
+      "hora": "2026-10-31T11:28:42-06:00",
+      "consulta": "tesis 1a./J. 46/2014 pagaré interés usurario reducción prudencial scjn",
+      "tool_use_id": "toolu_01RsKsV1Dex5RG63ADsDqcN4",
+      "urls_encontradas": [
+        "https://www.scjn.gob.mx/sites/default/files/listas/documento_dos/2024-01/240131-ADR-3853-2023.pdf",
+        "https://uigtsj.poderjudicialqro.gob.mx/wp-content/uploads/2024/01/38.Tesis2028099.pdf",
+        "https://uigtsj.poderjudicialqro.gob.mx/wp-content/uploads/2024/02/33.Tesis2028293.pdf",
+        "https://elconta.mx/victima-usura-te-reducen-la-tasa-de-interes-reducida/",
+        "https://elconta.mx/?p=53741",
+        "https://www.taxtodaymexico.com/?p=10582",
+        "https://vlex.com.mx/vid/672655885",
+        "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=4372",
+        "https://idconline.mx/juridico/2016/02/16/usura-no-atenta-contra-la-libertad-contractual",
+        "https://revistas-colaboracion.juridicas.unam.mx/index.php/judicatura/article/download/31553/28540",
+        "https://idconline.mx/juridico/2015/10/08/intereses-moratorios-iguales-a-usura",
+        "https://juristeca.com/mx/scjn/contradiccion-de-criterios-antes-contradiccion-de-tesis/2023/4/contradiccion-de-criterios-261-2022-entre-los-sustentados-por-el-segundo-tribunal-colegiado-del-decimo-septimo-circuito-el-primer-tribunal-colegiado-en-materia-civil-del-sexto-circuito-y-el-tercer-tribunal-colegiado-en-materias-civil-y-de-trabajo-d/viii-criterio-que-debe-prevalecer",
+        "https://juristeca.com/mx/scjn/contradiccion-de-criterios-antes-contradiccion-de-tesis/2023/4/contradiccion-de-criterios-261-2022-entre-los-sustentados-por-el-segundo-tribunal-colegiado-del-decimo-septimo-circuito-el-primer-tribunal-colegiado-en-materia-civil-del-sexto-circuito-y-el-tercer-tribunal-colegiado-en-materias-civil-y-de-trabajo-d/bajo-los-anteriores-razonamientos-se-establecieron-las-siguientes-obligaciones",
+        "https://juristeca.com/mx/scjn/contradiccion-de-criterios-antes-contradiccion-de-tesis/2023/4/contradiccion-de-criterios-261-2022-entre-los-sustentados-por-el-segundo-tribunal-colegiado-del-decimo-septimo-circuito-el-primer-tribunal-colegiado-en-materia-civil-del-sexto-circuito-y-el-tercer-tribunal-colegiado-en-materias-civil-y-de-trabajo-d/tuvo-presente-que-sobre-el-particular-la-juez-responsable-senalo",
+        "https://poderjudicialyucatan.gob.mx/digestum/marcoLegal/07/2015/DIGESTUM07161.pdf"
+      ],
+      "extracto_resultado": "Web search results for query: \"tesis 1a./J. 46/2014 pagaré interés usurario reducción prudencial scjn\"  Links: [{\"title\":\"240131 ADR 3853 2023\",\"url\":\"https://www.scjn.gob.mx/sites/default/files/listas/documento_dos/2024-01/240131-ADR-3853-2023.pdf\"},{\"title\":\"uigtsj.poderjudicialqro.gob.mx\",\"url\":\"https://uigtsj.poderjudicialqro.gob.mx/wp-content/uploads/2024/01/38.Tesis2028099.pdf\"},{\"title\":\"uigtsj.poderjudicialqro.gob.mx\",\"url\":\"https://uigtsj.poderjudicialqro.gob.mx/wp-content/uploads/2024/02/33.Tesis2028293.pdf\"},{\"title\":\"• Link to X\",\"url\":\"https://elconta.mx/victima-usura-te-reducen-l",
+      "error": false
+    },
+    {
+      "orden": 7,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:29:08-06:00",
+      "consulta": "LFPDPPP art. 36 (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_01AXGQJeqQZ6ghqZ6bu3j7gR",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf Descargado: 2026-10-31T11:29:08-06:00 (hora de Ciudad de México) · 24 páginas · SHA-256 04d67464e1efc047… Última reforma publicada en el DOF: 14-11-2025  Artículo 36. Las transferencias nacionales o internacionales de datos podrán llevarse a cabo sin el  consentimiento de la persona titular cuando se ubiquen en alguno de los supuestos siguientes:    I. La transferencia esté prevista en una Ley o Tratado en los que México sea parte",
+      "error": false
+    },
+    {
+      "orden": 8,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:29:09-06:00",
+      "consulta": "LTOSF art. 8 (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_012NaibbZ4VVFdH3QYjTeQZ4",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LTOSF.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley para la Transparencia y Ordenamiento de los Servicios Financieros (LTOSF) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LTOSF.pdf Descargado: 2026-10-31T11:28:42-06:00 (hora de Ciudad de México) · 48 páginas · SHA-256 bf9e443e89a5c0ba… Última reforma publicada en el DOF: 14-11-2025  Artículo 8. El Banco de México establecerá a través de disposiciones de carácter general, la fórmula,  los componentes y la metodología de cálculo del CAT, en relación con los créditos, préstamos o  financiamientos que otorguen las Entidades. En dichas disposiciones el Ba nco de México estab",
+      "error": false
+    },
+    {
+      "orden": 9,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:29:09-06:00",
+      "consulta": "LGOAAC art. 87-D (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_01NAxHBxxqNmtGhkPgazofuZ",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGOAAC.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley General de Organizaciones y Actividades Auxiliares del Crédito (LGOAAC) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGOAAC.pdf Descargado: 2026-10-31T11:28:39-06:00 (hora de Ciudad de México) · 148 páginas · SHA-256 54747e6ec9832743… Última reforma publicada en el DOF: 14-11-2025  Artículo 87 -D.- Las sociedades financieras de objeto múltiple reguladas, en adición a las  disposiciones que por su propia naturaleza les resultan aplicables, estarán a lo siguiente:    I. Las sociedades financieras de objeto múltiple que mantengan vínculos patrimoniales con una  institució",
+      "error": false
+    },
+    {
+      "orden": 10,
+      "herramienta": "WebSearch",
+      "hora": "2026-10-31T11:29:10-06:00",
+      "consulta": "CONDUSEF disposiciones de carácter general en materia de cláusulas abusivas contenidas en los contratos de adhesión DOF",
+      "tool_use_id": "toolu_01VA16EbH3vTu32dafZzSuCS",
+      "urls_encontradas": [
+        "https://www.condusef.gob.mx/?p=contenido&idc=725&idcat=1",
+        "https://www.condusef.gob.mx/documentos/marco_legal/disposiciones-clausulas-abusivas.pdf",
+        "https://registros.condusef.gob.mx/reca/reca.php",
+        "https://www.condusef.gob.mx/?p=contenido&idc=226&idcat=4",
+        "https://sidof.segob.gob.mx/notas/docFuente/5565233",
+        "https://www.condusef.gob.mx/documentos/clausulas-abusivas.pdf",
+        "https://phpapps.condusef.gob.mx/reca/_index.php",
+        "https://dof.gob.mx/nota_detalle.php?codigo=5403316&fecha=11%2F08%2F2015",
+        "https://www.gob.mx/cms/uploads/attachment/file/236385/4._Cl_usulas_Abusivas_2017.pdf",
+        "https://www.condusef.gob.mx/documentos/marco_legal/LPDUSF_090318.pdf"
+      ],
+      "extracto_resultado": "Web search results for query: \"CONDUSEF disposiciones de carácter general en materia de cláusulas abusivas contenidas en los contratos de adhesión DOF\"  Links: [{\"title\":\"Si la institución no modifica los contratos de adhesión, se ...\",\"url\":\"https://www.condusef.gob.mx/?p=contenido&idc=725&idcat=1\"},{\"title\":\"100 (Primera Sección) DIARIO OFICIAL Miércoles 19 de noviembre de 2014\",\"url\":\"https://www.condusef.gob.mx/documentos/marco_legal/disposiciones-clausulas-abusivas.pdf\"},{\"title\":\"CONDUSEF - RECA\",\"url\":\"https://registros.condusef.gob.mx/reca/reca.php\"},{\"title\":\"Condusef contenido\",\"url\"",
+      "error": false
+    },
+    {
+      "orden": 11,
+      "herramienta": "WebSearch",
+      "hora": "2026-10-31T11:29:12-06:00",
+      "consulta": "\"USURA. SU CONCEPTO\" OR \"PAGARÉ. EL ARTÍCULO 174\" 1a./J. 46/2014 1a./J. 47/2014 semanario judicial",
+      "tool_use_id": "toolu_018Kw3NN3NwugfCp6meHhQwB",
+      "urls_encontradas": [
+        "https://www2.scjn.gob.mx/juridica/engroses/1/2014/10/2_171187_4009_firmado.pdf",
+        "https://www2.scjn.gob.mx/juridica/engroses/1/2014/10/2_165176_4147_firmado.pdf",
+        "https://www2.scjn.gob.mx/juridica/engroses/1/2014/4/2_173434_3233_firmado.pdf",
+        "https://www.scjn.gob.mx/sites/default/files/listas/documento_dos/2018-05/ADR-3279-2017-180507.pdf",
+        "https://www2.scjn.gob.mx/juridica/engroses/1/2014/10/2_166201_2788_firmado.pdf",
+        "https://www.scjn.gob.mx/sites/default/files/listas/documento_dos/2018-06/ADR-1699-2014-180601.pdf",
+        "https://sjf2.scjn.gob.mx/detalle/tesis/2008465",
+        "https://www2.scjn.gob.mx/juridica/engroses/1/2015/10/2_188488_3190_firmado.pdf",
+        "https://sjf2.scjn.gob.mx/detalle/ejecutoria/28242"
+      ],
+      "extracto_resultado": "Web search results for query: \"\"USURA. SU CONCEPTO\" OR \"PAGARÉ. EL ARTÍCULO 174\" 1a./J. 46/2014 1a./J. 47/2014 semanario judicial\"  Links: [{\"title\":\"AMPARO DIRECTO EN REVISIÓN 4516/2014. QUEJOSA: MARÍA ISABEL GUADALUPE\",\"url\":\"https://www2.scjn.gob.mx/juridica/engroses/1/2014/10/2_171187_4009_firmado.pdf\"},{\"title\":\"AMPARO DIRECTO EN REVISIÓN 1823/2014. QUEJOSO: IGNACIO DE LA ROSA MEDINA.\",\"url\":\"https://www2.scjn.gob.mx/juridica/engroses/1/2014/10/2_165176_4147_firmado.pdf\"},{\"title\":\"CONTRADICCIÓN DE TESIS 386/2014. SUSCITADA ENTRE EL TERCER TRIBUNAL\",\"url\":\"https://www2.scjn.gob.mx/juridic",
+      "error": false
+    },
+    {
+      "orden": 12,
+      "herramienta": "WebFetch",
+      "hora": "2026-10-31T11:29:30-06:00",
+      "consulta": "https://dof.gob.mx/nota_detalle.php?codigo=5403316&fecha=11%2F08%2F2015",
+      "tool_use_id": "toolu_01CTBtMNdjTi4GywMeJnYHSQ",
+      "urls_encontradas": [],
+      "extracto_resultado": "**1. Registro en el RECA (art. 28):** \"Las Entidades Financieras deben inscribir en el RECA, previo a su utilización, todos los modelos de Contratos de Adhesión\"  **2. Leyenda del art. 87-J:** El texto proporcionado no contiene el artículo 87-J. Corresponde a la Ley para la Transparencia y Ordenamiento de los Servicios Financieros, que no se incluye en el documento.  **3. CAT en contrato y carátula:** - Art. 11, fr. X: \"CAT: El Costo Anual Total de financiamiento expresado en términos porcentuales anuales\" - Art. 6, fr. III: \"Contener las características de la operación, respetando el formato ",
+      "error": false
+    },
+    {
+      "orden": 13,
+      "herramienta": "LeyOficial",
+      "hora": "2026-10-31T11:29:31-06:00",
+      "consulta": "LGTOC art. 174 (PDF oficial, Cámara de Diputados)",
+      "tool_use_id": "toolu_016zcQGaoeFZd1KhJeXSwFpc",
+      "urls_encontradas": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGTOC.pdf"
+      ],
+      "extracto_resultado": "FUENTE OFICIAL: Ley General de Títulos y Operaciones de Crédito (LGTOC) URL: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGTOC.pdf Descargado: 2026-10-31T11:28:45-06:00 (hora de Ciudad de México) · 118 páginas · SHA-256 cf8a5d05500ddbe2… Última reforma publicada en el DOF: 26-03-2024  Artículo 174.- Son aplicables al pagaré, en lo conducente, los artículos 77, párrafo final, 79, 80, 81,  85, 86, 88, 90, 109 al 116, 126 al 132, 139, 140, 142, 143, párrafos segundo, tercero y cuarto, 144,  párrafos segundo y tercero, 148, 149, 150, fracciones II y III, 151 al 162, y 164 al 169.    Para los efec",
+      "error": false
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 **Opinión legal de contratos de crédito con la ley consultada en tiempo real.**
 Proyecto de clase para el Hackatón Lawgic · 31 de octubre de 2026 · Álvaro Enríquez.
 
+> 🖥️ **Pruébalo como app**: `streamlit run app.py` (ver [Cómo correrlo](#cómo-correrlo)).
 > 🎬 Video explicativo (menos de 2 minutos): [`video/lawgic-revisor.mp4`](video/lawgic-revisor.mp4)
 > 📄 Ejemplo real de salida: [`salida/contrato_quirografario_sintetico/opinion.md`](salida/contrato_quirografario_sintetico/opinion.md) y su bitácora [`fuentes.json`](salida/contrato_quirografario_sintetico/fuentes.json)
 
@@ -45,6 +46,21 @@ Requisitos: Python 3.12 y una de estas dos credenciales:
 
 ```bash
 python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
+```
+
+**Como app (recomendado para probar):**
+
+```bash
+.venv/bin/streamlit run app.py
+```
+
+Se abre en `http://localhost:8501`. En el panel izquierdo elige *Contrato de ejemplo* (o sube el tuyo en .md, .txt, .pdf o .docx, o pega el texto) y pulsa *Revisar contrato*. Verás las consultas a la ley apareciendo en vivo y, al terminar, el semáforo, la opinión, la bitácora de fuentes y los botones para descargar `opinion.md` y `fuentes.json`.
+
+![App Lawgic Revisor](docs/app.png)
+
+**Desde la terminal:**
+
+```bash
 .venv/bin/python -m lawgic_revisor ejemplos/contrato_quirografario_sintetico.md
 ```
 
@@ -64,11 +80,12 @@ Salida: `salida/<nombre del contrato>/opinion.md` y `fuentes.json`. Opciones: `-
 | 6 | Autoriza compartir datos con "cualquier tercero", sin aviso de privacidad | LFPDPPP arts. 15 a 17 y 36 |
 | 7 | Renuncia a reclamar ante la CONDUSEF; sin leyenda ni RECA | LPDUSF, LGOAAC art. 87-J, LTOSF art. 11 |
 
-El resultado real del agente sobre este contrato está en [`salida/contrato_quirografario_sintetico/`](salida/contrato_quirografario_sintetico/): semáforo **ROJO**, los siete defectos detectados, 12 consultas en 95 segundos (9 descargas de leyes oficiales con su fecha de última reforma y 3 búsquedas web sobre los criterios de usura de la SCJN, que el agente marcó como no verificados en fuente oficial).
+Las corridas hechas desde la app se guardan en `salida/app/<contrato>_<fecha-hora>/`; hay una de muestra. El resultado de referencia (el del video) está en [`salida/contrato_quirografario_sintetico/`](salida/contrato_quirografario_sintetico/): semáforo **ROJO**, los siete defectos detectados, 12 consultas en 95 segundos (9 descargas de leyes oficiales con su fecha de última reforma y 3 búsquedas web sobre los criterios de usura de la SCJN, que el agente marcó como no verificados en fuente oficial).
 
 ## Estructura
 
 ```
+app.py           app web (Streamlit) sobre el mismo motor
 lawgic_revisor/
   extractor.py   texto desde .md/.txt/.pdf/.docx
   prompt.py      instrucciones del abogado revisor y fuentes preferentes
